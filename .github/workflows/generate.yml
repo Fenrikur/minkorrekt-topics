@@ -54,5 +54,6 @@ jobs:
         run: |
           git config --global user.name 'M!Topics Action'
           git config --global user.email 'mtopics-action@tintenwolf.de'
-          git commit -am "Updated files from feed"
+          git add *.yaml
+          git commit -m "Updated files from feed"
           git push
