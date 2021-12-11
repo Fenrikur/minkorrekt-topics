@@ -56,6 +56,12 @@ jobs:
       #- name: Dump minkorrekt-themen.full.yaml
       #  run: cat minkorrekt-themen.full.yaml
 
+      - name: Generate JSON output
+        run: |
+          yq eval -o=j minkorrekt-themen.unfiltered.yaml > minkorrekt-themen.unfiltered.json
+          yq eval -o=j minkorrekt-themen.yaml > minkorrekt-themen.json
+          yq eval -o=j minkorrekt-themen.full.yaml > minkorrekt-themen.full.json
+
       - name: Cleanup
         run: rm feed.xml preprocessed.txt
 
@@ -64,6 +70,6 @@ jobs:
         run: |
           git config --global user.name 'M!Topics Action'
           git config --global user.email 'mtopics-action@tintenwolf.de'
-          git add *.yaml
+          git add *.yaml *.json
           git commit -m "Updated files from feed"
           git push
