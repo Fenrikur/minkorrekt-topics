@@ -21,17 +21,17 @@ jobs:
 
       - name: Install CPAN required modules
         run: cpanm HTML::Parser
-      
+
       - name: Download feed.xml
         uses: wei/curl@master
         with:
           args: -s https://minkorrekt.podigee.io/feed/mp3 -o feed.xml
-      
+
       - name: Pre-process feed.xml
         run: |
-          xpath -n -q -e 'rss/channel/item/title | rss/channel/item/content:encoded/text() | rss/channel/item/pubDate | rss/channel/item/link' | \
+          xpath -n -q -e 'rss/channel/item/title | rss/channel/item/content:encoded/text() | rss/channel/item/pubDate | rss/channel/item/link' feed.xml | \
           perl -C -MHTML::Entities -pe 'decode_entities($_);decode_entities($_);' > preprocessed.txt
-          
+
       - name: Generate minkorrekt-themen.unfiltered.yaml
         run: |
           cat preprocessed.txt | \
@@ -46,9 +46,9 @@ jobs:
           cat preprocessed.txt | \
           perl -C -pe 's/\"/\\\"/g;s/<title>([^<]+)<\/title>/- title: "$1"/g;s/<(pubDate|link)>([^<]+)<\/\1>/  $1: "$2"/g;s/<[^>]+>//g;s/^\h*?(Thema ([1-4]):?.*$)/  topic$2: "$1"/;s/^(?!  topic[1-4]:|- title:|  pubDate:|  link).*?$//gi;s/^\s*$//' | \
           yq e '[.[]]' - > minkorrekt-themen.full.yaml
-      
+
       - name: Cleanup
-        run: cat * && rm feed.xml preprocessed.txt
+        run: rm feed.xml preprocessed.txt
 
       - name: Commit updated files
         run: |
