@@ -14,18 +14,15 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - uses: shogo82148/actions-setup-perl@v1
-        with:
-          perl-version: '5.34'
-      - uses: mikefarah/yq@master
+      
+      - name: Install packages
+        run: sudo apt-get install yq xpath perl cpanminus curl
 
       - name: Install CPAN required modules
         run: cpanm HTML::Parser
 
       - name: Download feed.xml
-        uses: wei/curl@master
-        with:
-          args: -s https://minkorrekt.podigee.io/feed/mp3 -o feed.xml
+        run: curl -s https://minkorrekt.podigee.io/feed/mp3 -o feed.xml
 
       - name: Pre-process feed.xml
         run: |
