@@ -32,14 +32,23 @@ jobs:
           xpath -n -q -e 'rss/channel/item/title | rss/channel/item/content:encoded/text() | rss/channel/item/pubDate | rss/channel/item/link' feed.xml | \
           perl -C -MHTML::Entities -pe 'decode_entities($_);decode_entities($_);' > preprocessed.txt
 
+      - name: Dump preprocessed.txt
+        run: cat preprocessed.txt
+
       - name: Generate minkorrekt-themen.unfiltered.yaml
         run: |
           cat preprocessed.txt | \
           perl -C -pe 's/\"/\\\"/g;s/<title>([^<]+)<\/title>/- title: "$1"/g;s/<(pubDate|link)>([^<]+)<\/\1>/  $1: "$2"/g;s/<[^>]+>//g;s/^\h*?Thema ([1-4]):?\h*?(?:\\\"|[\x{201C}\x{201D}\x{201E}])(.+?)(?:\\\".*$|\h*?[\x{201C}\x{201D}\x{201E}].*$|\h\x{2013}[^\x{201C}\x{201D}\x{201E}\v]*$)/  topic$1: "$2"/;s/^(?!  topic[1-4]:|- title:|  pubDate:|  link).*?$//gi;s/^\s*$//' | \
           yq e '[.[]]' - > minkorrekt-themen.unfiltered.yaml
 
+      - name: Dump minkorrekt-themen.unfiltered.yaml
+        run: cat minkorrekt-themen.unfiltered.yaml
+
       - name: Generate minkorrekt-themen.yaml
         run: yq e '[.[] | select(has("topic1") // has("topic2") // has("topic3") // has("topic4"))]' minkorrekt-themen.unfiltered.yaml > minkorrekt-themen.yaml
+
+      - name: Dump minkorrekt-themen.yaml
+        run: cat minkorrekt-themen.yaml
 
       - name: Generate minkorrekt-themen.full.yaml
         run: |
@@ -47,10 +56,14 @@ jobs:
           perl -C -pe 's/\"/\\\"/g;s/<title>([^<]+)<\/title>/- title: "$1"/g;s/<(pubDate|link)>([^<]+)<\/\1>/  $1: "$2"/g;s/<[^>]+>//g;s/^\h*?(Thema ([1-4]):?.*$)/  topic$2: "$1"/;s/^(?!  topic[1-4]:|- title:|  pubDate:|  link).*?$//gi;s/^\s*$//' | \
           yq e '[.[]]' - > minkorrekt-themen.full.yaml
 
+      - name: Dump minkorrekt-themen.full.yaml
+        run: cat minkorrekt-themen.full.yaml
+
       - name: Cleanup
         run: rm feed.xml preprocessed.txt
 
       - name: Commit updated files
+        continue-on-error: true
         run: |
           git config --global user.name 'M!Topics Action'
           git config --global user.email 'mtopics-action@tintenwolf.de'
