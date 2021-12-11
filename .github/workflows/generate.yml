@@ -48,7 +48,7 @@ jobs:
           yq e '[.[]]' - > minkorrekt-themen.full.yaml
       
       - name: Cleanup
-        run: rm feed.xml preprocessed.txt
+        run: cat * && rm feed.xml preprocessed.txt
 
       - name: Commit updated files
         run: |
