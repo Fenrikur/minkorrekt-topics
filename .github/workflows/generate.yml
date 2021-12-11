@@ -18,8 +18,8 @@ jobs:
       - name: Install packages
         run: sudo apt-get install perl cpanminus curl; sudo snap install yq
 
-      - name: Install CPAN required modules
-        run: cpanm HTML::Parser; cpanm XML::XPath
+      - name: Install required CPAN modules
+        run: sudo cpanm HTML::Parser XML::XPath
 
       - name: Download feed.xml
         run: curl -s https://minkorrekt.podigee.io/feed/mp3 -o feed.xml
