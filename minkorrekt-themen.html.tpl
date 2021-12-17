@@ -132,6 +132,7 @@
 		};
 		const navigation = document.getElementById('navigation');
 		const folgen = document.getElementById('folgen');
+		let previousNavLi = null;
 		data.sort((a, b) => b.itunesEpisode - a.itunesEpisode).forEach((ep, i) => {
 			const epId = Number.parseInt(ep.itunesEpisode);
 			const epLabel = `episode-${epId}`;
@@ -186,8 +187,9 @@
 				if (i === 0) {
 					navigation.appendChild(epNavLi);
 				} else {
-					navigation.insertBefore(epNavLi, navigation.lastChild);
+					navigation.insertBefore(epNavLi, previousNavLi);
 				}
+				previousNavLi = epNavLi;
 			}
 		});
 	</script>
