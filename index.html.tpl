@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Methodisch Inkorrekt &mdash; Folgen- und Themenübersicht</title>
+	<title>m!nkorrekt &mdash; Folgen- und Themenübersicht</title>
 	<style>
 		html {
 			background-color: #666;
@@ -78,7 +78,7 @@
 		</ul>
 	</nav>
 	<section id="intro">
-		<h1>Methodisch Inkorrekt &mdash; Folgen- und Themenübersicht</h1>
+		<h1>m!nkorrekt &mdash; Folgen- und Themenübersicht</h1>
 		<p>
 			Willkommen auf der methodisch inkorrekte Weise komplett automatisch generierten Folgen- und Themenübersicht.
 			Hier findet ihr eine Liste aller Folgen des Podcasts <a href="https://minkorrekt.de"
@@ -115,6 +115,10 @@
 	</section>
 	<section id="folgen">
 		<h2>Folgen</h2>
+		<noscript>
+		  <h3>JavaScript deaktiviert</h3>
+		  Leider setzt diese Seite (sehr simples und komplett in der Seite selbst enthaltenes) JavaScript voraus, ohne welches hier keine Episoden angezeigt werden können.
+		</noscript>
 	</section>
 	<script>
 		const data = [].concat(
