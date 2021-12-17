@@ -62,6 +62,10 @@ jobs:
           yq eval -o=j minkorrekt-themen.yaml > minkorrekt-themen.json
           yq eval -o=j minkorrekt-themen.full.yaml > minkorrekt-themen.full.json
 
+      - name: Generate HTML page
+        run: |
+          sed -e '/::minkorrekt-themen.full.json::/ {' -e 'r minkorrekt-themen.full.json' -e 'd' -e '}' minkorrekt-themen.html.tpl
+
       - name: Cleanup
         run: rm feed.xml preprocessed.txt
 
@@ -70,6 +74,6 @@ jobs:
         run: |
           git config --global user.name 'M!Topics Action'
           git config --global user.email 'mtopics-action@tintenwolf.de'
-          git add *.yaml *.json
+          git add *.yaml *.json *.html
           git commit -m "Updated files from feed"
           git push

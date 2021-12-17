@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<title>Methodisch Inkorrekt &mdash; Folgen- und Themenübersicht</title>
+	<style>
+		html {
+			background-color: #666;
+		}
+
+		body {
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			margin: 20px 20%;
+			padding: 15px 35px;
+			border: 1px solid #222;
+			background-color: #bbb;
+			color: #222;
+		}
+
+		a.label {
+			color: #888;
+			text-decoration: none;
+		}
+
+		a.label:hover {
+			color: #666;
+		}
+
+		a.label::after {
+			content: " #";
+		}
+
+		nav {
+			background: #ddd;
+			border: 1px dashed #777;
+			text-align: center;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 10px 5px;
+		}
+
+		nav ul li {
+			display: inline-block;
+			padding: 0 15px;
+		}
+
+		#toplink {
+			height: 0;
+			overflow: visible;
+			position: sticky;
+			top: 15px;
+			margin-left: 110%;
+		}
+		
+		#toplink a {
+			display: inline-block;
+			border: 1px #222 solid;
+			background-color: #999;
+			vertical-align: middle;
+			color: #555;
+			text-decoration: none;
+			font-size: 150%;
+			padding: .3ex 1ex;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="toplink"><a href="#">^</a></div>
+	<nav>
+		<ul id='navigation'>
+			<li><a href="#intro">Intro</a></li>
+			<li><a href="#folgen">Folgen</a></li>
+		</ul>
+	</nav>
+	<section id="intro">
+		<h1>Methodisch Inkorrekt &mdash; Folgen- und Themenübersicht</h1>
+		<p>
+			Willkommen auf der methodisch inkorrekte Weise komplett automatisch generierten Folgen- und Themenübersicht.
+			Hier findet ihr eine Liste aller Folgen des Podcasts <a href="https://minkorrekt.de"
+				title="Website des Podcasts Methodisch Inkorrekt">Methodisch Inkorrekt</a>, welche täglich frisch aus
+			dem <a href="https://minkorrekt.podigee.io/feed/mp3">RSS-Feed der MP3-Folgen</a> generiert wird.
+		</p>
+		<p>
+			Während Inhalte wie z.B. das Chinagadget, der Schwurbel der Woche, Musik zwischen den Themen und der
+			Rausschmeißer über die Jahre hinzugekommen und auch teilweise wieder gegangen sind, gibt es über alle Folgen
+			hinweg eine Konstante. Ein Leuchtfeuer der methodisch inkorrekten Wissenschaftskommunikation. Ein Nordstern,
+			an dem sich Menschen seit Jahrtausen…<br />
+			<strong style="padding: 1ex 0;">Es gibt in jeder Folge vier Themen aus verschiedensten Bereichen der
+				aktuellen Wissenschaftspublikationswelt.</strong><br />
+			<em>In jeder Folge?</em> &mdash; Gut, erwischt. Nein, es gibt sie nicht in jeder Folge, denn Sonderfolgen
+			wie z.B. die Nobelpreisfolgen folgen ihrem eigenen Schema und manchmal hat es eben auch nur für zwei oder
+			drei Themen gereicht, aber ich hoffe ihr versteht, worauf ich hinaus will.
+		</p>
+		<p>
+			Die Liste versucht zwar prinzipiell, vollständig und sauber zu sein, allerdings kann es auf Grund
+			verschiedenster Sonderfälle und Abweichungen in der Formatierung der Shownotes gelegentlich dazu kommen,
+			dass z.B. Thementitel nicht oder nur teilweise erkannt werden.
+			Sollte euch etwas auffallen, könnt ihr gerne ein <a
+				href="https://github.com/Fenrikur/minkorrekt-topics/issues"
+				title="Übersicht der aktuellen Issues auf GitHub">Issue hierzu erstellen</a> und ich oder vielleicht
+			auch jemand anderes wird versuchen, den entsprechenden Edgecase mit abzudecken, sofern er nicht allzu
+			exotisch ist.
+		</p>
+		<p>
+			Falls ihr euch wundert, warum euch der vermeintliche Link zu Episode 20 in der Navigation oben zu einer
+			Episode mit der Zahl 18 im Titel schickt: Durch Doppelepisode (z.B. 12a und 12b) entsteht ein gewisser Drift
+			zwischen der numerischen ID der Folge und dem Titel.
+			Bitte gehen Sie weiter, hier gibt es nichts zu sehen …
+		</p>
+	</section>
+	<section id="folgen">
+		<h2>Folgen</h2>
+	</section>
+	<script>
+		const data = [].concat(
+			/*::minkorrekt-themen.full.json::*/
+			);
+	</script>
+	<script>
+		const createTopic = function (i, text) {
+			const topicP = document.createElement('p');
+			const topicStrong = document.createElement('strong');
+			topicStrong.innerText = `Thema ${i}: `;
+			topicP.appendChild(topicStrong);
+			topicP.appendChild(document.createTextNode(text));
+			return topicP;
+		};
+		const navigation = document.getElementById('navigation');
+		const folgen = document.getElementById('folgen');
+		data.sort((a, b) => b.itunesEpisode - a.itunesEpisode).forEach((ep, i) => {
+			const epId = Number.parseInt(ep.itunesEpisode);
+			const epLabel = `episode-${epId}`;
+			const epSection = document.createElement('section');
+			epSection.setAttribute('id', epLabel);
+
+			const epHeading = document.createElement('h3');
+
+			const epLink = document.createElement('a');
+			epLink.setAttribute('href', ep.link)
+			epLink.innerText = ep.title;
+			epHeading.appendChild(epLink);
+
+			const epLabelLink = document.createElement('a');
+			epLabelLink.setAttribute('href', `#${epLabel}`);
+			epLabelLink.setAttribute('class', 'label');
+			epHeading.appendChild(epLabelLink);
+
+			epSection.appendChild(epHeading)
+
+			let hasTopics = ep.topic1 || ep.topic2 || ep.topic3 || ep.topic4;
+			if (ep.topic1) {
+				epSection.appendChild(createTopic(1, ep.topic1));
+			}
+			if (ep.topic2) {
+				epSection.appendChild(createTopic(2, ep.topic2));
+			}
+			if (ep.topic3) {
+				epSection.appendChild(createTopic(3, ep.topic3));
+			}
+			if (ep.topic4) {
+				epSection.appendChild(createTopic(4, ep.topic4));
+			}
+			if (!hasTopics) {
+				epSection.appendChild(document.createTextNode('Sonderfolge mit abweichendem Schema.'));
+			}
+
+			const epDate = new Date(ep.pubDate);
+			const epMeta = document.createElement('p');
+			epMeta.innerText = `Veröffentlicht am ${epDate.toLocaleDateString()} um ${epDate.toLocaleTimeString()} mit ID ${epId}.`;
+			epSection.appendChild(epMeta);
+
+			folgen.appendChild(epSection);
+
+			if (i === 0 || epId === 1 || epId % 20 === 0) {
+				console.log(epId);
+				const epNavLi = document.createElement('li');
+				const epNavA = document.createElement('a');
+				epNavA.setAttribute('href', `#${epLabel}`);
+				epNavA.innerText = `Episode ${epId}`;
+				epNavLi.appendChild(epNavA);
+				if (i === 0) {
+					navigation.appendChild(epNavLi);
+				} else {
+					navigation.insertBefore(epNavLi, navigation.lastChild);
+				}
+			}
+		});
+	</script>
+</body>
+
+</html>
