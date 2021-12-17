@@ -26,7 +26,7 @@ jobs:
 
       - name: Pre-process feed.xml
         run: |
-          xpath -n -q -e 'rss/channel/item/title | rss/channel/item/content:encoded/text() | rss/channel/item/pubDate | rss/channel/item/link' feed.xml | \
+          xpath -n -q -e 'rss/channel/item/title | rss/channel/item/content:encoded/text() | rss/channel/item/pubDate | rss/channel/item/link | rss/channel/item/itunes:episode' feed.xml | \
           perl -C -MHTML::Entities -pe 'decode_entities($_);decode_entities($_);' > preprocessed.txt
 
       #- name: Dump preprocessed.txt
