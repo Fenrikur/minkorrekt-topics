@@ -64,7 +64,7 @@ jobs:
 
       - name: Generate HTML page
         run: |
-          sed -e '/::minkorrekt-themen.full.json::/ {' -e 'r minkorrekt-themen.full.json' -e 'd' -e '}' minkorrekt-themen.html.tpl > minkorrekt-themen.html
+          sed -e '/::minkorrekt-themen.full.json::/ {' -e 'r minkorrekt-themen.full.json' -e 'd' -e '}' index.html.tpl > index.html
 
       - name: Cleanup
         run: rm feed.xml preprocessed.txt
