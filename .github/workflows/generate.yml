@@ -64,7 +64,7 @@ jobs:
 
       - name: Generate HTML page
         run: |
-          sed -e '/::minkorrekt-themen.full.json::/ {' -e 'r minkorrekt-themen.full.json' -e 'd' -e '}' index.html.tpl > index.html
+          sed -e '/::minkorrekt-themen.full.json::/ {' -e 'r minkorrekt-themen.full.json' -e 'd' -e '}' index.tpl.html > index.html
 
       - name: Cleanup
         run: rm feed.xml preprocessed.txt
@@ -73,7 +73,7 @@ jobs:
         continue-on-error: true
         run: |
           git config --global user.name 'M!Topics Action'
-          git config --global user.email 'mtopics-action@tintenwolf.de'
+          git config --global user.email 'mtopics-action@fenrikur.de'
           git add *.yaml *.json *.html
           git commit -m "Updated files from feed"
           git push
