@@ -838,17 +838,6 @@
     "itunesEpisode": "125"
   },
   {
-    "title": "Minkorrekt Folge 121 \"Musikhochschule Aachen\"",
-    "episode": "121",
-    "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
-    "link": "http://minkorrekt.de/minkorrekt-folge-121-musikhochschule-aachen",
-    "topic1": "Ohne Tracker keine Competitiony",
-    "topic2": "Wo war nochmal das Zelt?",
-    "topic3": "Schlechte Nachricht für Uncle Bens",
-    "topic4": "UHU unter Wasser",
-    "itunesEpisode": "124"
-  },
-  {
     "title": "Minkorrekt Folge 120 “Wir sind die Physis”",
     "episode": "120",
     "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
@@ -858,6 +847,17 @@
     "topic3": "Der Pulsschlag der Stadt",
     "topic4": "Mach ma heller ich hör nix!",
     "itunesEpisode": "123"
+  },
+  {
+    "title": "Minkorrekt Folge 121 \"Musikhochschule Aachen\"",
+    "episode": "121",
+    "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
+    "link": "http://minkorrekt.de/minkorrekt-folge-121-musikhochschule-aachen",
+    "topic1": "Ohne Tracker keine Competitiony",
+    "topic2": "Wo war nochmal das Zelt?",
+    "topic3": "Schlechte Nachricht für Uncle Bens",
+    "topic4": "UHU unter Wasser",
+    "itunesEpisode": "124"
   },
   {
     "title": "Minkorrekt Folge 119 “Analoge Pissrinne”",
@@ -1058,7 +1058,7 @@
     "link": "https://minkorrekt.podigee.io/104-minkorrekt-folge-99-fummeln-mit-dem-scharfen-hugel",
     "topic1": "Neutrinokochtopf",
     "topic2": "Dicht, Goethe, Kepler.",
-    "gadget": "Der scharfe Hügel….damit ihr richtig damit umgeht – hier das Video zum Chinagadget.",
+    "gadget": "Der scharfe Hügel….damit ihr richtig damit umgeht – hier das Video zum Chinagadget.",
     "topic3": "Wie der Alte so der Sohn",
     "topic4": "Manchmal ist es besser Gas zu geben",
     "itunesEpisode": "104"
