@@ -1,5 +1,14 @@
 [
   {
+    "title": "Mi240 – „Popcorn Poesie“",
+    "episode": "240",
+    "pubDate": "Tue, 07 Mar 2023 10:13:36 +0000",
+    "link": "https://minkorrekt.de/mi240-popcorn-poesie/",
+    "topic1": "(Nicolas): \"Stahlalt\" – mithilfe von u. a. experimenteller Archäologie fand man heraus, dass Stahl bereits vor 2.900 Jahren in Europa in Gebrauch war. Gesteinsanalysen des Papers zeigen, dass bestimmte Stelen nur mit Stahlwerkzeugen bearbeitet werden konnten. Das Ziel des Forschungsprojekts ist eine kohärente und systematische Untersuchung der Stelen in Hinblick auf ihre symbolische und gesellschaftliche Bedeutung – hier geht's zur Seite des Kooperationsprojekts der Uni Freiburg.",
+    "topic2": "(Reini): \"Die Salzseen von Catan\" – Salzseen weisen überall die gleichen 6-eckigen Wabenmuster auf – welche Prozesse stecken dahinter? Das Paper aus Graz zeigt, dass das Wasser hier ähnlich wie warmes und kaltes Wasser in Heizkörpern zirkuliert. Dadurch bilden sich im Untergrund Konvektionsrollen von salzigem und weniger salzigem Wasser und lässt so das relativ regelmäßige Muster entstehen.",
+    "itunesEpisode": "245"
+  },
+  {
     "title": "Mi239 – „Innerlich in Pension“",
     "episode": "239",
     "pubDate": "Tue, 28 Feb 2023 08:05:14 +0000",
@@ -1937,18 +1946,6 @@
     "title": "Minkorrekt Folge 58 “Kaffeeprütt”",
     "episode": "",
     "pubDate": "Tue, 15 Sep 2015 07:00:26 +0000",
-    "link": "https://minkorrekt.podigee.io/62-minkorrekt-folge-58-kaffeeprutt",
-    "topic1": "„It’s a trap“ – Wenn man Krebszellen nur schwer jagen kann, vielleicht kann man sie in eine Falle locken? Wissenschaftler haben eine Falle für Metastasen gebaut. Mit erfreulichem Erfolg.",
-    "topic2": "„Die Jacobs Krönung des LPG“ – Ihr schmeißt die alten Senseopads immer in den Mülleimer?  Ein großer Fehler, denn laut dieser Studie zu Kaffeeprütt tankt vielleicht nicht nur ihr sondern auch euer Auto bald die Jakobs Krönung.",
-    "gadget": "Die Wurstspirale. Funktioniert mit Deutschländern nur mäßig",
-    "topic3": "„Spiel nicht mit den Schmuddelkindern“ – Wie wirkt sich soziale Ungerechtigkeit auf den Kooperationswillen einer Gesellschaft aus?",
-    "topic4": "„Es gibt kein schlechtes Wetter nur schlechte Solarzellen“ –Wenn die Sonne nicht scheint macht die Durchschnittssolarzelle in etwa soviel wie ein Wissenschaftler ohne Kaffee…nichts messbares. Jetzt kommt Hilfe für die faulen Solarzellen in Form einer gepimpten Abdeckplatte.",
-    "itunesEpisode": "62"
-  },
-  {
-    "title": "Minkorrekt Folge 58 “Kaffeeprütt”",
-    "episode": "",
-    "pubDate": "Tue, 15 Sep 2015 07:00:26 +0000",
     "link": "https://minkorrekt.podigee.io/61-minkorrekt-folge-58-kaffeeprutt",
     "topic1": "„It’s a trap“ – Wenn man Krebszellen nur schwer jagen kann, vielleicht kann man sie in eine Falle locken? Wissenschaftler haben eine Falle für Metastasen gebaut. Mit erfreulichem Erfolg.",
     "topic2": "„Die Jacobs Krönung des LPG“ – Ihr schmeißt die alten Senseopads immer in den Mülleimer?  Ein großer Fehler, denn laut dieser Studie zu Kaffeeprütt tankt vielleicht nicht nur ihr sondern auch euer Auto bald die Jakobs Krönung.",
@@ -1956,6 +1953,18 @@
     "topic3": "„Spiel nicht mit den Schmuddelkindern“ – Wie wirkt sich soziale Ungerechtigkeit auf den Kooperationswillen einer Gesellschaft aus?",
     "topic4": "„Es gibt kein schlechtes Wetter nur schlechte Solarzellen“ –Wenn die Sonne nicht scheint macht die Durchschnittssolarzelle in etwa soviel wie ein Wissenschaftler ohne Kaffee…nichts messbares. Jetzt kommt Hilfe für die faulen Solarzellen in Form einer gepimpten Abdeckplatte.",
     "itunesEpisode": "61"
+  },
+  {
+    "title": "Minkorrekt Folge 58 “Kaffeeprütt”",
+    "episode": "",
+    "pubDate": "Tue, 15 Sep 2015 07:00:26 +0000",
+    "link": "https://minkorrekt.podigee.io/62-minkorrekt-folge-58-kaffeeprutt",
+    "topic1": "„It’s a trap“ – Wenn man Krebszellen nur schwer jagen kann, vielleicht kann man sie in eine Falle locken? Wissenschaftler haben eine Falle für Metastasen gebaut. Mit erfreulichem Erfolg.",
+    "topic2": "„Die Jacobs Krönung des LPG“ – Ihr schmeißt die alten Senseopads immer in den Mülleimer?  Ein großer Fehler, denn laut dieser Studie zu Kaffeeprütt tankt vielleicht nicht nur ihr sondern auch euer Auto bald die Jakobs Krönung.",
+    "gadget": "Die Wurstspirale. Funktioniert mit Deutschländern nur mäßig",
+    "topic3": "„Spiel nicht mit den Schmuddelkindern“ – Wie wirkt sich soziale Ungerechtigkeit auf den Kooperationswillen einer Gesellschaft aus?",
+    "topic4": "„Es gibt kein schlechtes Wetter nur schlechte Solarzellen“ –Wenn die Sonne nicht scheint macht die Durchschnittssolarzelle in etwa soviel wie ein Wissenschaftler ohne Kaffee…nichts messbares. Jetzt kommt Hilfe für die faulen Solarzellen in Form einer gepimpten Abdeckplatte.",
+    "itunesEpisode": "62"
   },
   {
     "title": "Minkorrekt Folge 57 “Personal-Istkosten”",
