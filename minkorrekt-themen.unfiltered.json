@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mi275 – \"Hopfenland Hallertau\"",
+    "episode": "275",
+    "pubDate": "Tue, 07 Nov 2023 09:58:03 +0000",
+    "link": "https://minkorrekt.de/mi275-hopfenland-hallertau/",
+    "itunesEpisode": "282"
+  },
+  {
     "title": "Mi274 – \"Zwangsinformiert\"",
     "episode": "274",
     "pubDate": "Tue, 31 Oct 2023 09:43:02 +0000",
@@ -1483,17 +1490,6 @@
     "itunesEpisode": "125"
   },
   {
-    "title": "Minkorrekt Folge 120 “Wir sind die Physis”",
-    "episode": "",
-    "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
-    "link": "https://minkorrekt.podigee.io/123-minkorrekt-folge-120-wir-sind-die-physis",
-    "topic1": "Die Erde gerät aus der Bahn",
-    "topic2": "Alles muss seine Ordnung haben!",
-    "topic3": "Der Pulsschlag der Stadt",
-    "topic4": "Mach ma heller ich hör nix!",
-    "itunesEpisode": "123"
-  },
-  {
     "title": "Minkorrekt Folge 121 \"Musikhochschule Aachen\"",
     "episode": "",
     "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
@@ -1503,6 +1499,17 @@
     "topic3": "Schlechte Nachricht für Uncle Bens",
     "topic4": "UHU unter Wasser",
     "itunesEpisode": "124"
+  },
+  {
+    "title": "Minkorrekt Folge 120 “Wir sind die Physis”",
+    "episode": "",
+    "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
+    "link": "https://minkorrekt.podigee.io/123-minkorrekt-folge-120-wir-sind-die-physis",
+    "topic1": "Die Erde gerät aus der Bahn",
+    "topic2": "Alles muss seine Ordnung haben!",
+    "topic3": "Der Pulsschlag der Stadt",
+    "topic4": "Mach ma heller ich hör nix!",
+    "itunesEpisode": "123"
   },
   {
     "title": "Minkorrekt Folge 119 “Analoge Pissrinne”",
