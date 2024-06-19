@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mi302 – \"Faktenflexibel\"",
+    "episode": "302",
+    "pubDate": "Tue, 18 Jun 2024 06:14:58 +0000",
+    "link": "https://minkorrekt.de/mi302-faktenflexibel/",
+    "itunesEpisode": "309"
+  },
+  {
     "title": "Mi301 – \"Funghi Nostra\"",
     "episode": "301",
     "pubDate": "Tue, 04 Jun 2024 08:40:58 +0000",
@@ -1672,17 +1679,6 @@
     "itunesEpisode": "125"
   },
   {
-    "title": "Minkorrekt Folge 121 \"Musikhochschule Aachen\"",
-    "episode": "",
-    "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
-    "link": "http://minkorrekt.de/minkorrekt-folge-121-musikhochschule-aachen",
-    "topic1": "Ohne Tracker keine Competitiony",
-    "topic2": "Wo war nochmal das Zelt?",
-    "topic3": "Schlechte Nachricht für Uncle Bens",
-    "topic4": "UHU unter Wasser",
-    "itunesEpisode": "124"
-  },
-  {
     "title": "Minkorrekt Folge 120 “Wir sind die Physis”",
     "episode": "",
     "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
@@ -1692,6 +1688,17 @@
     "topic3": "Der Pulsschlag der Stadt",
     "topic4": "Mach ma heller ich hör nix!",
     "itunesEpisode": "123"
+  },
+  {
+    "title": "Minkorrekt Folge 121 \"Musikhochschule Aachen\"",
+    "episode": "",
+    "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
+    "link": "http://minkorrekt.de/minkorrekt-folge-121-musikhochschule-aachen",
+    "topic1": "Ohne Tracker keine Competitiony",
+    "topic2": "Wo war nochmal das Zelt?",
+    "topic3": "Schlechte Nachricht für Uncle Bens",
+    "topic4": "UHU unter Wasser",
+    "itunesEpisode": "124"
   },
   {
     "title": "Minkorrekt Folge 119 “Analoge Pissrinne”",
