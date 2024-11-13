@@ -1,5 +1,14 @@
 [
   {
+    "title": "Mi321 – \"Schimpansen-Generationsraumschiff\"",
+    "episode": "321",
+    "pubDate": "Tue, 12 Nov 2024 07:42:57 +0000",
+    "link": "https://minkorrekt.de/mi321-schimpansen-generationsraumschiff/",
+    "topic1": "\"Todesfalle Urzeitpool\" – In der Grube Messel wurden über 500 Fledermausfossilien entdeckt, was Forschende zunächst auf Umweltkatastrophen zurückführten. Neue Analysen deuten jedoch darauf hin, dass die Fledermäuse durch Zufall in den See gefallen sind und ertranken – ähnlich wie heutige Fledermäuse, die manchmal in Pools ertrinken. Tests mit Fledermauskadavern zeigen auch, dass die Fossilisierung im tiefen, sauerstoffarmen Wasser des Sees erleichtert wurde, was die außergewöhnlich gute Erhaltung der Fossilien erklärt.",
+    "topic2": "\"Unendlichkeit ist nicht verfügbar\" – Das \"Infinite-Monkey-Theorem\" besagt, dass Affen durch endloses Tippen irgendwann Shakespeares Werke schreiben könnten – eine Theorie, die laut einer neuen Studie statistisch aber unmöglich ist. Selbst über Milliarden Jahre würde es kaum ein sinnvolles Werk ergeben, abgesehen von simplen Wörtern wie „Banane“. Ein Experiment zeigte zudem, dass Affen mehr daran interessiert sind, auf Tastaturen zu urinieren als Literatur zu schaffen.",
+    "itunesEpisode": "328"
+  },
+  {
     "title": "Mi320 – \"Dambedei in Mittelerde\"",
     "episode": "320",
     "pubDate": "Tue, 05 Nov 2024 09:26:37 +0000",
@@ -2651,18 +2660,6 @@
     "title": "Minkorrekt Folge 58 “Kaffeeprütt”",
     "episode": "",
     "pubDate": "Tue, 15 Sep 2015 07:00:26 +0000",
-    "link": "https://minkorrekt.podigee.io/62-minkorrekt-folge-58-kaffeeprutt",
-    "topic1": "„It’s a trap“ – Wenn man Krebszellen nur schwer jagen kann, vielleicht kann man sie in eine Falle locken? Wissenschaftler haben eine Falle für Metastasen gebaut. Mit erfreulichem Erfolg.",
-    "topic2": "„Die Jacobs Krönung des LPG“ – Ihr schmeißt die alten Senseopads immer in den Mülleimer?  Ein großer Fehler, denn laut dieser Studie zu Kaffeeprütt tankt vielleicht nicht nur ihr sondern auch euer Auto bald die Jakobs Krönung.",
-    "gadget": "Die Wurstspirale. Funktioniert mit Deutschländern nur mäßig",
-    "topic3": "„Spiel nicht mit den Schmuddelkindern“ – Wie wirkt sich soziale Ungerechtigkeit auf den Kooperationswillen einer Gesellschaft aus?",
-    "topic4": "„Es gibt kein schlechtes Wetter nur schlechte Solarzellen“ –Wenn die Sonne nicht scheint macht die Durchschnittssolarzelle in etwa soviel wie ein Wissenschaftler ohne Kaffee…nichts messbares. Jetzt kommt Hilfe für die faulen Solarzellen in Form einer gepimpten Abdeckplatte.",
-    "itunesEpisode": "62"
-  },
-  {
-    "title": "Minkorrekt Folge 58 “Kaffeeprütt”",
-    "episode": "",
-    "pubDate": "Tue, 15 Sep 2015 07:00:26 +0000",
     "link": "https://minkorrekt.podigee.io/61-minkorrekt-folge-58-kaffeeprutt",
     "topic1": "„It’s a trap“ – Wenn man Krebszellen nur schwer jagen kann, vielleicht kann man sie in eine Falle locken? Wissenschaftler haben eine Falle für Metastasen gebaut. Mit erfreulichem Erfolg.",
     "topic2": "„Die Jacobs Krönung des LPG“ – Ihr schmeißt die alten Senseopads immer in den Mülleimer?  Ein großer Fehler, denn laut dieser Studie zu Kaffeeprütt tankt vielleicht nicht nur ihr sondern auch euer Auto bald die Jakobs Krönung.",
@@ -2670,6 +2667,18 @@
     "topic3": "„Spiel nicht mit den Schmuddelkindern“ – Wie wirkt sich soziale Ungerechtigkeit auf den Kooperationswillen einer Gesellschaft aus?",
     "topic4": "„Es gibt kein schlechtes Wetter nur schlechte Solarzellen“ –Wenn die Sonne nicht scheint macht die Durchschnittssolarzelle in etwa soviel wie ein Wissenschaftler ohne Kaffee…nichts messbares. Jetzt kommt Hilfe für die faulen Solarzellen in Form einer gepimpten Abdeckplatte.",
     "itunesEpisode": "61"
+  },
+  {
+    "title": "Minkorrekt Folge 58 “Kaffeeprütt”",
+    "episode": "",
+    "pubDate": "Tue, 15 Sep 2015 07:00:26 +0000",
+    "link": "https://minkorrekt.podigee.io/62-minkorrekt-folge-58-kaffeeprutt",
+    "topic1": "„It’s a trap“ – Wenn man Krebszellen nur schwer jagen kann, vielleicht kann man sie in eine Falle locken? Wissenschaftler haben eine Falle für Metastasen gebaut. Mit erfreulichem Erfolg.",
+    "topic2": "„Die Jacobs Krönung des LPG“ – Ihr schmeißt die alten Senseopads immer in den Mülleimer?  Ein großer Fehler, denn laut dieser Studie zu Kaffeeprütt tankt vielleicht nicht nur ihr sondern auch euer Auto bald die Jakobs Krönung.",
+    "gadget": "Die Wurstspirale. Funktioniert mit Deutschländern nur mäßig",
+    "topic3": "„Spiel nicht mit den Schmuddelkindern“ – Wie wirkt sich soziale Ungerechtigkeit auf den Kooperationswillen einer Gesellschaft aus?",
+    "topic4": "„Es gibt kein schlechtes Wetter nur schlechte Solarzellen“ –Wenn die Sonne nicht scheint macht die Durchschnittssolarzelle in etwa soviel wie ein Wissenschaftler ohne Kaffee…nichts messbares. Jetzt kommt Hilfe für die faulen Solarzellen in Form einer gepimpten Abdeckplatte.",
+    "itunesEpisode": "62"
   },
   {
     "title": "Minkorrekt Folge 57 “Personal-Istkosten”",
