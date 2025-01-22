@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mi330 – \"Drill, baby, drill!\"",
+    "episode": "330",
+    "pubDate": "Tue, 21 Jan 2025 08:07:54 +0000",
+    "link": "https://minkorrekt.de/mi330-drill-baby-drill/",
+    "itunesEpisode": "337"
+  },
+  {
     "title": "Mi329 – “Mogel-KI“",
     "episode": "329",
     "pubDate": "Tue, 14 Jan 2025 10:33:20 +0000",
@@ -2570,18 +2577,6 @@
     "title": "Minkorrekt Folge 58 “Kaffeeprütt”",
     "episode": "",
     "pubDate": "Tue, 15 Sep 2015 07:00:26 +0000",
-    "link": "https://minkorrekt.podigee.io/61-minkorrekt-folge-58-kaffeeprutt",
-    "topic1": "It’s a trap",
-    "topic2": "Die Jacobs Krönung des LPG",
-    "gadget": "Die Wurstspirale. Funktioniert mit Deutschländern nur mäßig",
-    "topic3": "Spiel nicht mit den Schmuddelkindern",
-    "topic4": "Es gibt kein schlechtes Wetter nur schlechte Solarzellen",
-    "itunesEpisode": "61"
-  },
-  {
-    "title": "Minkorrekt Folge 58 “Kaffeeprütt”",
-    "episode": "",
-    "pubDate": "Tue, 15 Sep 2015 07:00:26 +0000",
     "link": "https://minkorrekt.podigee.io/62-minkorrekt-folge-58-kaffeeprutt",
     "topic1": "It’s a trap",
     "topic2": "Die Jacobs Krönung des LPG",
@@ -2589,6 +2584,18 @@
     "topic3": "Spiel nicht mit den Schmuddelkindern",
     "topic4": "Es gibt kein schlechtes Wetter nur schlechte Solarzellen",
     "itunesEpisode": "62"
+  },
+  {
+    "title": "Minkorrekt Folge 58 “Kaffeeprütt”",
+    "episode": "",
+    "pubDate": "Tue, 15 Sep 2015 07:00:26 +0000",
+    "link": "https://minkorrekt.podigee.io/61-minkorrekt-folge-58-kaffeeprutt",
+    "topic1": "It’s a trap",
+    "topic2": "Die Jacobs Krönung des LPG",
+    "gadget": "Die Wurstspirale. Funktioniert mit Deutschländern nur mäßig",
+    "topic3": "Spiel nicht mit den Schmuddelkindern",
+    "topic4": "Es gibt kein schlechtes Wetter nur schlechte Solarzellen",
+    "itunesEpisode": "61"
   },
   {
     "title": "Minkorrekt Folge 57 “Personal-Istkosten”",

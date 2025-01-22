@@ -1,5 +1,13 @@
 [
   {
+    "title": "Mi330 – \"Drill, baby, drill!\"",
+    "episode": "330",
+    "pubDate": "Tue, 21 Jan 2025 08:07:54 +0000",
+    "link": "https://minkorrekt.de/mi330-drill-baby-drill/",
+    "topic2": "(Reini): \"Der Pate läuft und läuft und läuft …\" – Der Pilzpate ist zurück – in Batterieform! Forschende haben eine biologisch abbaubare, 3D-gedruckte Pilzbatterie entwickelt, die durch Nährstoffe Strom erzeugt. Sie nutzt zwei Pilzarten, deren Stoffwechselprozesse Strom liefern, um kleine Geräte wie Temperatursensoren zu betreiben. Die Batterie besteht aus Cellulose und Holzmaterialien, ist umweltfreundlich und kann durch Zugabe von Wasser und Zucker aktiviert werden. Das Potenzial für nachhaltige Anwendungen in der Landwirtschaft oder Umweltforschung ist riesig, die Forschung steckt aber noch in den Kinderschuhen.",
+    "itunesEpisode": "337"
+  },
+  {
     "title": "Mi329 – “Mogel-KI“",
     "episode": "329",
     "pubDate": "Tue, 14 Jan 2025 10:33:20 +0000",
@@ -2726,18 +2734,6 @@
     "title": "Minkorrekt Folge 58 “Kaffeeprütt”",
     "episode": "",
     "pubDate": "Tue, 15 Sep 2015 07:00:26 +0000",
-    "link": "https://minkorrekt.podigee.io/61-minkorrekt-folge-58-kaffeeprutt",
-    "topic1": "„It’s a trap“ – Wenn man Krebszellen nur schwer jagen kann, vielleicht kann man sie in eine Falle locken? Wissenschaftler haben eine Falle für Metastasen gebaut. Mit erfreulichem Erfolg.",
-    "topic2": "„Die Jacobs Krönung des LPG“ – Ihr schmeißt die alten Senseopads immer in den Mülleimer?  Ein großer Fehler, denn laut dieser Studie zu Kaffeeprütt tankt vielleicht nicht nur ihr sondern auch euer Auto bald die Jakobs Krönung.",
-    "gadget": "Die Wurstspirale. Funktioniert mit Deutschländern nur mäßig",
-    "topic3": "„Spiel nicht mit den Schmuddelkindern“ – Wie wirkt sich soziale Ungerechtigkeit auf den Kooperationswillen einer Gesellschaft aus?",
-    "topic4": "„Es gibt kein schlechtes Wetter nur schlechte Solarzellen“ –Wenn die Sonne nicht scheint macht die Durchschnittssolarzelle in etwa soviel wie ein Wissenschaftler ohne Kaffee…nichts messbares. Jetzt kommt Hilfe für die faulen Solarzellen in Form einer gepimpten Abdeckplatte.",
-    "itunesEpisode": "61"
-  },
-  {
-    "title": "Minkorrekt Folge 58 “Kaffeeprütt”",
-    "episode": "",
-    "pubDate": "Tue, 15 Sep 2015 07:00:26 +0000",
     "link": "https://minkorrekt.podigee.io/62-minkorrekt-folge-58-kaffeeprutt",
     "topic1": "„It’s a trap“ – Wenn man Krebszellen nur schwer jagen kann, vielleicht kann man sie in eine Falle locken? Wissenschaftler haben eine Falle für Metastasen gebaut. Mit erfreulichem Erfolg.",
     "topic2": "„Die Jacobs Krönung des LPG“ – Ihr schmeißt die alten Senseopads immer in den Mülleimer?  Ein großer Fehler, denn laut dieser Studie zu Kaffeeprütt tankt vielleicht nicht nur ihr sondern auch euer Auto bald die Jakobs Krönung.",
@@ -2745,6 +2741,18 @@
     "topic3": "„Spiel nicht mit den Schmuddelkindern“ – Wie wirkt sich soziale Ungerechtigkeit auf den Kooperationswillen einer Gesellschaft aus?",
     "topic4": "„Es gibt kein schlechtes Wetter nur schlechte Solarzellen“ –Wenn die Sonne nicht scheint macht die Durchschnittssolarzelle in etwa soviel wie ein Wissenschaftler ohne Kaffee…nichts messbares. Jetzt kommt Hilfe für die faulen Solarzellen in Form einer gepimpten Abdeckplatte.",
     "itunesEpisode": "62"
+  },
+  {
+    "title": "Minkorrekt Folge 58 “Kaffeeprütt”",
+    "episode": "",
+    "pubDate": "Tue, 15 Sep 2015 07:00:26 +0000",
+    "link": "https://minkorrekt.podigee.io/61-minkorrekt-folge-58-kaffeeprutt",
+    "topic1": "„It’s a trap“ – Wenn man Krebszellen nur schwer jagen kann, vielleicht kann man sie in eine Falle locken? Wissenschaftler haben eine Falle für Metastasen gebaut. Mit erfreulichem Erfolg.",
+    "topic2": "„Die Jacobs Krönung des LPG“ – Ihr schmeißt die alten Senseopads immer in den Mülleimer?  Ein großer Fehler, denn laut dieser Studie zu Kaffeeprütt tankt vielleicht nicht nur ihr sondern auch euer Auto bald die Jakobs Krönung.",
+    "gadget": "Die Wurstspirale. Funktioniert mit Deutschländern nur mäßig",
+    "topic3": "„Spiel nicht mit den Schmuddelkindern“ – Wie wirkt sich soziale Ungerechtigkeit auf den Kooperationswillen einer Gesellschaft aus?",
+    "topic4": "„Es gibt kein schlechtes Wetter nur schlechte Solarzellen“ –Wenn die Sonne nicht scheint macht die Durchschnittssolarzelle in etwa soviel wie ein Wissenschaftler ohne Kaffee…nichts messbares. Jetzt kommt Hilfe für die faulen Solarzellen in Form einer gepimpten Abdeckplatte.",
+    "itunesEpisode": "61"
   },
   {
     "title": "Minkorrekt Folge 57 “Personal-Istkosten”",
