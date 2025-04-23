@@ -1,5 +1,14 @@
 [
   {
+    "title": "Mi342 – \"Super Pep\"",
+    "episode": "342",
+    "pubDate": "Tue, 22 Apr 2025 06:03:10 +0000",
+    "link": "https://minkorrekt.de/mi342-super-pep/",
+    "topic1": "(Nicolas): \"Klang statt Kübel\" – Ein lauter Ton gegen Übelkeit: Forschende haben entdeckt, dass ein einminütiger 100-Hertz-Ton das Gleichgewichtsorgan stimuliert und so Reisekrankheit lindert. Der „Sound Spice“ genannte Ton wirkt auf die Ohrsteinchen im Innenohr und hilft laut Studien spürbar gegen Schwindel und Übelkeit; ganz ohne Tabletten und Nebenwirkungen.",
+    "topic2": "(Reini): \"Die fetten Monate sind vorbei\" – Wer bei Kälte gezeugt wird, hat später oft mehr aktives braunes Fett. Das heizt ordentlich ein und schützt vor Übergewicht. Eine japanische Studie zeigt: Diese „kaltgezeugten“ Menschen verbrennen mehr Energie, haben weniger Bauchfett und insgesamt einen niedrigeren BMI. Grund könnte eine epigenetische Anpassung der Spermien an kalte Temperaturen sein. Wie genau, ist aber noch unklar.",
+    "itunesEpisode": "349"
+  },
+  {
     "title": "Mi341 – \"Erdcrouton\"",
     "episode": "341",
     "pubDate": "Tue, 08 Apr 2025 09:48:13 +0000",
@@ -2832,18 +2841,6 @@
     "title": "Minkorrekt Folge 58 “Kaffeeprütt”",
     "episode": "",
     "pubDate": "Tue, 15 Sep 2015 07:00:26 +0000",
-    "link": "https://minkorrekt.podigee.io/62-minkorrekt-folge-58-kaffeeprutt",
-    "topic1": "„It’s a trap“ – Wenn man Krebszellen nur schwer jagen kann, vielleicht kann man sie in eine Falle locken? Wissenschaftler haben eine Falle für Metastasen gebaut. Mit erfreulichem Erfolg.",
-    "topic2": "„Die Jacobs Krönung des LPG“ – Ihr schmeißt die alten Senseopads immer in den Mülleimer?  Ein großer Fehler, denn laut dieser Studie zu Kaffeeprütt tankt vielleicht nicht nur ihr sondern auch euer Auto bald die Jakobs Krönung.",
-    "gadget": "Die Wurstspirale. Funktioniert mit Deutschländern nur mäßig",
-    "topic3": "„Spiel nicht mit den Schmuddelkindern“ – Wie wirkt sich soziale Ungerechtigkeit auf den Kooperationswillen einer Gesellschaft aus?",
-    "topic4": "„Es gibt kein schlechtes Wetter nur schlechte Solarzellen“ –Wenn die Sonne nicht scheint macht die Durchschnittssolarzelle in etwa soviel wie ein Wissenschaftler ohne Kaffee…nichts messbares. Jetzt kommt Hilfe für die faulen Solarzellen in Form einer gepimpten Abdeckplatte.",
-    "itunesEpisode": "62"
-  },
-  {
-    "title": "Minkorrekt Folge 58 “Kaffeeprütt”",
-    "episode": "",
-    "pubDate": "Tue, 15 Sep 2015 07:00:26 +0000",
     "link": "https://minkorrekt.podigee.io/61-minkorrekt-folge-58-kaffeeprutt",
     "topic1": "„It’s a trap“ – Wenn man Krebszellen nur schwer jagen kann, vielleicht kann man sie in eine Falle locken? Wissenschaftler haben eine Falle für Metastasen gebaut. Mit erfreulichem Erfolg.",
     "topic2": "„Die Jacobs Krönung des LPG“ – Ihr schmeißt die alten Senseopads immer in den Mülleimer?  Ein großer Fehler, denn laut dieser Studie zu Kaffeeprütt tankt vielleicht nicht nur ihr sondern auch euer Auto bald die Jakobs Krönung.",
@@ -2851,6 +2848,18 @@
     "topic3": "„Spiel nicht mit den Schmuddelkindern“ – Wie wirkt sich soziale Ungerechtigkeit auf den Kooperationswillen einer Gesellschaft aus?",
     "topic4": "„Es gibt kein schlechtes Wetter nur schlechte Solarzellen“ –Wenn die Sonne nicht scheint macht die Durchschnittssolarzelle in etwa soviel wie ein Wissenschaftler ohne Kaffee…nichts messbares. Jetzt kommt Hilfe für die faulen Solarzellen in Form einer gepimpten Abdeckplatte.",
     "itunesEpisode": "61"
+  },
+  {
+    "title": "Minkorrekt Folge 58 “Kaffeeprütt”",
+    "episode": "",
+    "pubDate": "Tue, 15 Sep 2015 07:00:26 +0000",
+    "link": "https://minkorrekt.podigee.io/62-minkorrekt-folge-58-kaffeeprutt",
+    "topic1": "„It’s a trap“ – Wenn man Krebszellen nur schwer jagen kann, vielleicht kann man sie in eine Falle locken? Wissenschaftler haben eine Falle für Metastasen gebaut. Mit erfreulichem Erfolg.",
+    "topic2": "„Die Jacobs Krönung des LPG“ – Ihr schmeißt die alten Senseopads immer in den Mülleimer?  Ein großer Fehler, denn laut dieser Studie zu Kaffeeprütt tankt vielleicht nicht nur ihr sondern auch euer Auto bald die Jakobs Krönung.",
+    "gadget": "Die Wurstspirale. Funktioniert mit Deutschländern nur mäßig",
+    "topic3": "„Spiel nicht mit den Schmuddelkindern“ – Wie wirkt sich soziale Ungerechtigkeit auf den Kooperationswillen einer Gesellschaft aus?",
+    "topic4": "„Es gibt kein schlechtes Wetter nur schlechte Solarzellen“ –Wenn die Sonne nicht scheint macht die Durchschnittssolarzelle in etwa soviel wie ein Wissenschaftler ohne Kaffee…nichts messbares. Jetzt kommt Hilfe für die faulen Solarzellen in Form einer gepimpten Abdeckplatte.",
+    "itunesEpisode": "62"
   },
   {
     "title": "Minkorrekt Folge 57 “Personal-Istkosten”",
