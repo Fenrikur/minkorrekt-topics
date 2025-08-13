@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mi356 – \"+1 auf Stroopwafel\"",
+    "episode": "356",
+    "pubDate": "Tue, 12 Aug 2025 08:16:19 +0000",
+    "link": "https://minkorrekt.podigee.io/363-mi356",
+    "itunesEpisode": "363"
+  },
+  {
     "title": "Mi355 – \"shadow hidden irgendwatt\"",
     "episode": "355",
     "pubDate": "Tue, 29 Jul 2025 08:13:13 +0000",
@@ -2064,17 +2071,6 @@
     "itunesEpisode": "125"
   },
   {
-    "title": "Minkorrekt Folge 120 “Wir sind die Physis”",
-    "episode": "",
-    "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
-    "link": "https://minkorrekt.podigee.io/123-minkorrekt-folge-120-wir-sind-die-physis",
-    "topic1": "Die Erde gerät aus der Bahn",
-    "topic2": "Alles muss seine Ordnung haben!",
-    "topic3": "Der Pulsschlag der Stadt",
-    "topic4": "Mach ma heller ich hör nix!",
-    "itunesEpisode": "123"
-  },
-  {
     "title": "Minkorrekt Folge 121 \"Musikhochschule Aachen\"",
     "episode": "",
     "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
@@ -2084,6 +2080,17 @@
     "topic3": "Schlechte Nachricht für Uncle Bens",
     "topic4": "UHU unter Wasser",
     "itunesEpisode": "124"
+  },
+  {
+    "title": "Minkorrekt Folge 120 “Wir sind die Physis”",
+    "episode": "",
+    "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
+    "link": "https://minkorrekt.podigee.io/123-minkorrekt-folge-120-wir-sind-die-physis",
+    "topic1": "Die Erde gerät aus der Bahn",
+    "topic2": "Alles muss seine Ordnung haben!",
+    "topic3": "Der Pulsschlag der Stadt",
+    "topic4": "Mach ma heller ich hör nix!",
+    "itunesEpisode": "123"
   },
   {
     "title": "Minkorrekt Folge 119 “Analoge Pissrinne”",
