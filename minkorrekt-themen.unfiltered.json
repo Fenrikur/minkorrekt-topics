@@ -1,5 +1,14 @@
 [
   {
+    "title": "Mi375 - \"Tränen der Engel\"",
+    "episode": "375",
+    "pubDate": "Tue, 06 Jan 2026 07:50:41 +0000",
+    "link": "https://minkorrekt.de/mi375-traenen-der-engel/",
+    "topic1": "Schweigen ist Silber, Reden ist Tod",
+    "topic2": "Spandex Tarnkappe",
+    "itunesEpisode": "382"
+  },
+  {
     "title": "Mi374 – \"Ig-Nobelpreis-Sonderfolge 2025\"",
     "episode": "374",
     "pubDate": "Tue, 16 Dec 2025 09:39:46 +0000",
@@ -2201,17 +2210,6 @@
     "itunesEpisode": "125"
   },
   {
-    "title": "Minkorrekt Folge 120 “Wir sind die Physis”",
-    "episode": "",
-    "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
-    "link": "https://minkorrekt.podigee.io/123-minkorrekt-folge-120-wir-sind-die-physis",
-    "topic1": "Die Erde gerät aus der Bahn",
-    "topic2": "Alles muss seine Ordnung haben!",
-    "topic3": "Der Pulsschlag der Stadt",
-    "topic4": "Mach ma heller ich hör nix!",
-    "itunesEpisode": "123"
-  },
-  {
     "title": "Minkorrekt Folge 121 \"Musikhochschule Aachen\"",
     "episode": "",
     "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
@@ -2221,6 +2219,17 @@
     "topic3": "Schlechte Nachricht für Uncle Bens",
     "topic4": "UHU unter Wasser",
     "itunesEpisode": "124"
+  },
+  {
+    "title": "Minkorrekt Folge 120 “Wir sind die Physis”",
+    "episode": "",
+    "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
+    "link": "https://minkorrekt.podigee.io/123-minkorrekt-folge-120-wir-sind-die-physis",
+    "topic1": "Die Erde gerät aus der Bahn",
+    "topic2": "Alles muss seine Ordnung haben!",
+    "topic3": "Der Pulsschlag der Stadt",
+    "topic4": "Mach ma heller ich hör nix!",
+    "itunesEpisode": "123"
   },
   {
     "title": "Minkorrekt Folge 119 “Analoge Pissrinne”",
