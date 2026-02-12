@@ -1,5 +1,14 @@
 [
   {
+    "title": "Mi380 - \"Löchriger Käse\"",
+    "episode": "380",
+    "pubDate": "Wed, 11 Feb 2026 06:00:00 +0000",
+    "link": "https://minkorrekt.podigee.io/387-mi380-lochriger-kase",
+    "topic1": "Crashkurs Mond",
+    "topic2": "Man muss auch mal loben!",
+    "itunesEpisode": "387"
+  },
+  {
     "title": "Mi379 - \"Faule Elektronen\"",
     "episode": "379",
     "pubDate": "Tue, 03 Feb 2026 08:27:22 +0000",
@@ -2245,17 +2254,6 @@
     "itunesEpisode": "125"
   },
   {
-    "title": "Minkorrekt Folge 121 \"Musikhochschule Aachen\"",
-    "episode": "",
-    "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
-    "link": "http://minkorrekt.de/minkorrekt-folge-121-musikhochschule-aachen",
-    "topic1": "Ohne Tracker keine Competitiony",
-    "topic2": "Wo war nochmal das Zelt?",
-    "topic3": "Schlechte Nachricht für Uncle Bens",
-    "topic4": "UHU unter Wasser",
-    "itunesEpisode": "124"
-  },
-  {
     "title": "Minkorrekt Folge 120 “Wir sind die Physis”",
     "episode": "",
     "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
@@ -2265,6 +2263,17 @@
     "topic3": "Der Pulsschlag der Stadt",
     "topic4": "Mach ma heller ich hör nix!",
     "itunesEpisode": "123"
+  },
+  {
+    "title": "Minkorrekt Folge 121 \"Musikhochschule Aachen\"",
+    "episode": "",
+    "pubDate": "Tue, 15 May 2018 06:40:53 +0000",
+    "link": "http://minkorrekt.de/minkorrekt-folge-121-musikhochschule-aachen",
+    "topic1": "Ohne Tracker keine Competitiony",
+    "topic2": "Wo war nochmal das Zelt?",
+    "topic3": "Schlechte Nachricht für Uncle Bens",
+    "topic4": "UHU unter Wasser",
+    "itunesEpisode": "124"
   },
   {
     "title": "Minkorrekt Folge 119 “Analoge Pissrinne”",
